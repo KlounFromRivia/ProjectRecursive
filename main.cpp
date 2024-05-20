@@ -30,7 +30,7 @@ void processDirectory(path dir, int depth) {
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
-        cerr << "Применяется: " << argv[0] << " <directory_path>" << endl;
+        cerr << "Введите: " << argv[0] << " <Путь каталога>" << endl;
         return 1;
     }
 
