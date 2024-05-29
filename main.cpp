@@ -74,7 +74,6 @@ void processDirectory(path dir, int depth, int countP) {
 	 } else {
            cout << "ПРоцесс ID: " << pid << ", Имя файла: " << entry.path().filename() << endl;
          }
-	 count++;
     }
     for(int i = 0; i < countP; i++){
 	    wait(NULL);
